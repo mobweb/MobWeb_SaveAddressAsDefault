@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_SaveAddressAsDefault>
+            <version>0.0.1</version>
+        </MobWeb_SaveAddressAsDefault>
+    </modules>
+    <global>
+        <models>
+            <saveaddressasdefault>
+                <class>MobWeb_SaveAddressAsDefault_Model</class>
+            </saveaddressasdefault>
+            <checkout>
+                <rewrite>
+                    <type_onepage>MobWeb_SaveAddressAsDefault_Model_Type_Onepage</type_onepage>
+                </rewrite>
+            </checkout>
+        </models>
+        <helpers>
+            <saveaddressasdefault>
+                <class>MobWeb_SaveAddressAsDefault_Helper</class>
+            </saveaddressasdefault>
+        </helpers>
+    </global>
+ </config>

@@ -1,0 +1,6 @@
+app/code/community/MobWeb/SaveAddressAsDefault app/code/community/MobWeb/SaveAddressAsDefault/
+
+app/etc/modules/MobWeb_SaveAddressAsDefault.xml app/etc/modules/MobWeb_SaveAddressAsDefault.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
